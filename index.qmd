@@ -1,5 +1,73 @@
 ---
 format: revealjs
+editor_options: 
+  chunk_output_type: console
 ---
 
 # {{< fa cat >}} {{< fa laptop-code >}}
+
+# 
+
+::: {layout="[[50,-10,60], [100]]" layout-valign="center"}
+![](https://rladies.org/wp-content/uploads/2016/12/R-LadiesGlobal.png)
+
+Organización global que promueve la diversidad de género en la comunidad de R
+
+talleres \| charlas \| mentorías \| espacio seguro
+:::
+
+# Usos {{< fa laptop-code >}}
+
+## R en Ciencia de Suelos
+
+## R en Linguística
+
+## R en Estadística
+
+## R en Ciencia de Datos Espaciales {.smaller}
+
+::: {layout="[[1,1], [2]]"}
+# ¿Quién soy?
+
+-   Stephanie Orellana
+-   Ingeniera Agrónoma y Magíster en Recursos Naturales
+-   Científica de Datos
+-   Especialista en datos geoespaciales
+
+# Para qué uso R
+
+-   Limpieza y transformación de datos
+-   Visualización
+-   Modelación
+-   Procesamiento geoespacial y mapas
+-   Aplicaciones interactivas
+-   Reportes automáticos
+-   Automatización de tareas
+
+![](https://github.com/sporella/30daymap/raw/master/plots/20_expectativas.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/29_gfs.gif){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/21_20lagos.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/13_humedadsuelo.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/10_paradas.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/14_anomalias.png){width="15%"}
+:::
+
+## Paquetes que más utilizo
+
+::: {layout="[[1,1],[1,1]]" layout-valign="center"}
+
+# Ciencia de datos
+![](img/tidyverse.png){width="15%"}
+
+# Datos Espaciales
+![](https://user-images.githubusercontent.com/520851/34887433-ce1d130e-f7c6-11e7-83fc-d60ad4fae6bd.gif)
+![](https://rspatial.github.io/terra/reference/figures/logo.png){width="35%"}
+![](https://r-spatial.github.io/rgee/logo.png){width="40%"}
+![](https://github.com/tim-salabim/mvl/raw/cstriestohelp/imagery/animated/box_anim.gif?raw=true){width="50%"}
+
+:::
+
+## Habilidades/conocimientos necesarios
+
+- Geografía
+- Matemática/álgebra
+- Estadística
+- Habilidad para aprender otros lenguajes de programación
+- Creatividad
+- Habilidades comunicativas
+- Paciencia
