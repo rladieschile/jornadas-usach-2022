@@ -18,8 +18,6 @@ talleres \| charlas \| mentorías \| espacio seguro
 
 # Usos {{< fa laptop-code >}}
 
-## R en Ciencia de Suelos
-
 ## R en Linguística
 
 ## R en Estadística
@@ -71,3 +69,51 @@ talleres \| charlas \| mentorías \| espacio seguro
 - Creatividad
 - Habilidades comunicativas
 - Paciencia
+
+## R en Ciencias del Suelo {.smaller}
+
+::: {layout="[[1,1], [2]]"}
+# ¿Quién soy?
+
+-   Sara Acevedo
+-   Químico mención Analítica y Ambiental
+-   Master en Suelos y Biogeoquímica y Dr(c) Ciencias de la Ingeniería
+-   Científica de Suelos
+-   Especialista en física y química de suelos 
+
+# Para qué uso R
+
+* El suelo es un volumen tridimensional 
+    + Análisis complejo (tiempo y espacio)
+    + Uso de sensores de alta resolución
+
+* Modelación de propiedades de suelo
+  + Predicción en base propiedades mas simples
+
+*   Análisis de datos derivados de instrumentación (como dataloggers)
+
+
+![](https://github.com/Saryace/minidiskR/blob/main/figures/plot_bysoilID_plot.png?raw=true){width="15%"} ![](https://raw.githubusercontent.com/Saryace/pario_datamanagement/master/figures/textural_triangle.png){width="19%"} ![](https://github.com/Saryace/pario_datamanagement/blob/master/figures/cute_psd.gif?raw=true){width="15%"}  ![](https://github.com/Saryace/pario_datamanagement/blob/master/figures/psd_plot.png?raw=true){width="20%"} ![](https://github.com/Saryace/mapa_urbano/blob/main/mapas/mapa_urbano.jpeg?raw=true){width="23%"}
+:::
+
+## Paquetes que más utilizo
+
+::: {layout="[[1,1],[1,1]]" layout-valign="middle"}
+
+# Modelación
+![](https://tidymodels.tidymodels.org/logo.png){width="25%"}![](https://workflows.tidymodels.org/logo.png){width="25%"}![](https://broom.tidymodels.org/logo.png){width="25%"}
+
+# Ciencias del Suelo
+![](https://raw.githubusercontent.com/ncss-tech/aqp/master/misc/hexstickers/aqp_sticker_v2.png){width="32%"}
+![](https://github.com/kaizadp/soilpalettes/raw/master/images/0-logo.png){width="35%"}
+![](http://www.ggtern.com/wp-content/uploads/2013/12/feldspar.png){width="50%"}
+![](https://patchwork.data-imaginist.com/reference/figures/logo.png){width="30%"}
+
+:::
+
+## Habilidades/conocimientos necesarios
+
+- Geología/Física/Química
+- Matemática/estadística
+- Tolerancia a la frustración
+- Inglés PERO la comunidad en Español es grande
