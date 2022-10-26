@@ -20,7 +20,81 @@ talleres \| charlas \| mentorías \| espacio seguro
 
 ## R en Linguística
 
-## R en Estadística
+## R en Investigación Estadística {.smaller}
+
+::: {layout="[1,1]"}
+# ¿Quién soy?
+
+- Alejandra Tapia
+- Ingeniera en Estadística, Magíster y Doctora en Estadística
+- Investigadora y Profesora
+- RLadies
+- Rstart 
+- Apasionada por el estudio de la mente y las emociones
+- Apasionada por el arte geométrico, óptico y cinético
+
+# Para qué uso R
+
+- Análisis de Datos y Modelamiento Estadístico
+- Investigación Académica en Estadística
+- Enseñanza Estadística
+- Estudio del fenómeno de las conductas suicidas en jóvenes y adolescentes 
+- Exploración de la investigación artística visual y sonora
+
+:::
+
+## R en Investigación Estadística 
+
+::: {layout="[1,1]"}
+
+- Para el desarrollo de nuevas propuestas metodológicas en el área de la investigación estadística.
+
+- En la línea de investigación del análisis de sensibilidad de MLGM con variable de respuesta discreta.
+
+![](img/image_paper.png)
+
+:::
+
+## R en Investigación Estadística {.smaller}
+
+::: {layout="[1,1]"}
+
+- El análisis de sensibilidad es una etapa muy importante en todo modelamiento estadístico de cualquier campo de la ciencia.
+
+- Permite investigar cómo las diferentes fuentes de incertezas del modelo, pueden afectar las estimaciones y, por lo tanto, las inferencias y/o predicciones y, en consecuencia, la toma de decisiones basadas en datos. 
+
+- Sin embargo, para los MLGM con respuestas de conteo, herramientas de análisis de sensibilidad aún son muy escasas.
+
+![](img/image_paper.png)
+
+:::
+
+## R en Investigación Estadística {.smaller}
+
+::: {layout="[1,1]"}
+
+- En este trabajo se propuso una metodología para evaluar la sensibilidad de las estimaciones a las respuestas de conteo, cuya derivación estándar no aplica al caso de respuestas discretas. 
+
+- Para evaluar el desempeño de la metodología propuesta, se crea un código en R para realizar estudios de simulación de MC considerando diferentes escenarios (acá fue necesario uso de servidores).
+
+![](img/image_paper.png)
+
+:::
+
+
+## R en Investigación Estadística
+
+::: {layout="[2,1]"}
+
+- Para ilustrar el desempeño de la metodología propuesta, se crea un código en R para realizar aplicaciones a datos médicos reales.
+
+- AED: {base},{ggplot}/Estimación MV:{lme4}/Análisis de Sensibilidad: Implementación del algoritmo Metropolis-Hastings para muestrear observaciones y aproximar esperanzas matemáticas - Derivación de las curvaturas de influencia:{matrixcalc}
+
+- Comunidad R/Medicine
+
+![](img/r-med-2021-hex-sticker.png)
+
+:::
 
 ## R en Ciencia de Datos Espaciales {.smaller}
 
