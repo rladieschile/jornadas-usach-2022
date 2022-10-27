@@ -1,49 +1,119 @@
 ---
-format: revealjs
+format: 
+  revealjs:
+    theme: estilos.scss
+    fontcolor: "#515151"
 editor_options: 
   chunk_output_type: console
 ---
 
-# {{< fa cat >}} {{< fa laptop-code >}}
 
-# 
+# {.fondocalipso data-menu-title="Portada"}
 
-::: {layout="[[50,-10,60], [100]]" layout-valign="center"}
-![](https://rladies.org/wp-content/uploads/2016/12/R-LadiesGlobal.png)
-
-Organización global que promueve la diversidad de género en la comunidad de R
-
-talleres \| charlas \| mentorías \| espacio seguro
+::: mas-grande
+**Los distintos usos de R y la diversidad de su comunidad**
 :::
 
-# Usos {{< fa laptop-code >}}
+[{{< fa brands twitter >}} **@RLadiesSantiago**]{.grande}
 
-## R en Linguística
+{{< fa link >}} **tinyurl.com/rladies-usach**
 
-## R en Investigación Estadística {.smaller}
+# {background-color="#88398A" .ultra-grande .centrado}
+
+**¡Hola!**
+
+# {.centrado}
+
+![](https://rladies.org/wp-content/uploads/2016/12/R-LadiesGlobal.png){width="15%"}
+
+[Organización global que promueve la diversidad de género en la comunidad de R]{.mediano}
+
+# {background-color="#88398A" .mas-grande .centrado}
+
+¿Cómo hacemos esto?
+<br/>
+<br/>
+
+::: {.r-fit-text}
+talleres \| mentorías \| charlas \| espacio seguro
+:::
+
+
+# {background-color="#88398A"}
+
+::: {.mas-grande}
+{{< fa  location-dot >}} 216 grupos de RLadies
+
+{{< fa  earth-americas >}} 61 países
+
+{{< fa people-group >}} \> 100.000 participantes
+:::
+<br/>
+<br/>
+
+::: {.mediano}
+En Chile: Santiago, Valparaíso, Concepción y Talca
+:::
+
+# {.mediano .centrado}
+
+RLadies es una de las tantas formas que tiene la comunidad de R de reunirse: hay otros grupos de usuarios, hay conferencias y sobre todo una gran comunidad virtual.
+
+::: {.ultra-grande}
+{{< fa brands twitter >}} {{< fa brands meetup >}}
+:::
+
+# {.blanquicalipso}
+
+::: {.r-fit-text .centrado}
+**Distintos usos de R** {{< fa laptop-code >}}
+:::
+
+# {.fondocalipso}
+
+::: {.r-fit-text .codigo}
+\> **R en Investigación Estadística**
+
+\> Alejandra Tapia 
+
+:::
+
+## ¿Quién soy?
+\> **Alejandra Tapia** ({{< fa brands twitter >}} @aleants)
+<br/>
+<br/>
 
 ::: {layout="[1,1]"}
-# ¿Quién soy?
 
-- Alejandra Tapia
+#
 - Ingeniera en Estadística, Magíster y Doctora en Estadística
 - Investigadora y Profesora
 - RLadies
 - Rstart 
+
+#
 - Apasionada por el estudio de la mente y las emociones
 - Apasionada por el arte geométrico, óptico y cinético
+:::
 
-# Para qué uso R
+## ¿Para qué uso R?
+<br/>
+<br/>
 
+::: {layout="[1,1]"}
+#
 - Análisis de Datos y Modelamiento Estadístico
 - Investigación Académica en Estadística
 - Enseñanza Estadística
+
+#
 - Estudio del fenómeno de las conductas suicidas en jóvenes y adolescentes 
 - Exploración de la investigación artística visual y sonora
 
 :::
 
-## R en Investigación Estadística 
+
+# {}
 
 ::: {layout="[1,1]"}
 
@@ -55,38 +125,75 @@ talleres \| charlas \| mentorías \| espacio seguro
 
 :::
 
-## R en Investigación Estadística {.smaller}
+
+# {}
 
 ::: {layout="[1,1]"}
 
-- El análisis de sensibilidad es una etapa muy importante en todo modelamiento estadístico de cualquier campo de la ciencia.
-
-- Permite investigar cómo las diferentes fuentes de incertezas del modelo, pueden afectar las estimaciones y, por lo tanto, las inferencias y/o predicciones y, en consecuencia, la toma de decisiones basadas en datos. 
-
-- Sin embargo, para los MLGM con respuestas de conteo, herramientas de análisis de sensibilidad aún son muy escasas.
-
-![](img/image_paper.png)
-
-:::
-
-## R en Investigación Estadística {.smaller}
-
-::: {layout="[1,1]"}
-
-- En este trabajo se propuso una metodología para evaluar la sensibilidad de las estimaciones a las respuestas de conteo, cuya derivación estándar no aplica al caso de respuestas discretas. 
-
-- Para evaluar el desempeño de la metodología propuesta, se crea un código en R para realizar estudios de simulación de MC considerando diferentes escenarios (acá fue necesario uso de servidores).
+El análisis de sensibilidad es una etapa muy importante en todo modelamiento estadístico de cualquier campo de la ciencia.
 
 ![](img/image_paper.png)
 
 :::
 
 
-## R en Investigación Estadística
+# {}
+
+::: {layout="[1,1]"}
+
+Permite investigar cómo las diferentes fuentes de incertezas del modelo pueden afectar las estimaciones y, por lo tanto, las inferencias y/o predicciones y, en consecuencia, la toma de decisiones basada en datos. 
+
+![](img/image_paper.png)
+
+:::
+
+
+# {}
+
+::: {layout="[1,1]"}
+
+Sin embargo, para los MLGM con respuestas de conteo, herramientas de análisis de sensibilidad aún son muy escasas.
+
+![](img/image_paper.png)
+
+:::
+
+
+# {}
+
+::: {layout="[1,1]"}
+
+En este trabajo se propuso una metodología para evaluar la sensibilidad de las estimaciones a las respuestas de conteo, cuya derivación estándar no aplica al caso de respuestas discretas. 
+
+![](img/image_paper.png)
+
+:::
+
+# {}
+
+::: {layout="[1,1]"}
+
+Para evaluar el desempeño de la metodología propuesta, se crea un código en R para realizar estudios de simulación de MC considerando diferentes escenarios (acá fue necesario uso de servidores).
+
+![](img/image_paper.png)
+
+:::
+
+
+
+# {}
 
 ::: {layout="[2,1]"}
 
-- Para ilustrar el desempeño de la metodología propuesta, se crea un código en R para realizar aplicaciones a datos médicos reales.
+Para ilustrar el desempeño de la metodología propuesta, se crea un código en R para realizar aplicaciones a datos médicos reales.
+
+![](img/r-med-2021-hex-sticker.png)
+
+:::
+
+# {}
+
+::: {layout="[2,1]"}
 
 - AED: {base},{ggplot}/Estimación MV:{lme4}/Análisis de Sensibilidad: Implementación del algoritmo Metropolis-Hastings para muestrear observaciones y aproximar esperanzas matemáticas - Derivación de las curvaturas de influencia:{matrixcalc}
 
@@ -96,28 +203,47 @@ talleres \| charlas \| mentorías \| espacio seguro
 
 :::
 
-## R en Ciencia de Datos Espaciales {.smaller}
 
-::: {layout="[[1,1], [2]]"}
-# ¿Quién soy?
+# {.fondocalipso}
 
--   Stephanie Orellana
+::: {.r-fit-text .codigo}
+\> **R en Ciencia de Datos Espaciales**
+
+\> Stephanie Orellana
+
+:::
+
+
+## ¿Quién soy?
+\> **Stephanie Orellana** ({{< fa brands twitter >}} @sporella)
+<br/>
+<br/>
+
 -   Ingeniera Agrónoma y Magíster en Recursos Naturales
 -   Científica de Datos
 -   Especialista en datos geoespaciales
+<br/>
+<br/>
 
-# Para qué uso R
+
+![](https://github.com/sporella/30daymap/raw/master/plots/20_expectativas.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/29_gfs.gif){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/21_20lagos.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/13_humedadsuelo.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/10_paradas.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/14_anomalias.png){width="15%"}
+
+## ¿Para qué uso R?
+
+::: {layout="[1,1]"}
 
 -   Limpieza y transformación de datos
 -   Visualización
 -   Modelación
+
+#
 -   Procesamiento geoespacial y mapas
 -   Aplicaciones interactivas
 -   Reportes automáticos
 -   Automatización de tareas
+:::
 
 ![](https://github.com/sporella/30daymap/raw/master/plots/20_expectativas.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/29_gfs.gif){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/21_20lagos.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/13_humedadsuelo.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/10_paradas.png){width="15%"} ![](https://github.com/sporella/30daymap/raw/master/plots/14_anomalias.png){width="15%"}
-:::
 
 ## Paquetes que más utilizo
 
@@ -135,6 +261,7 @@ talleres \| charlas \| mentorías \| espacio seguro
 :::
 
 ## Habilidades/conocimientos necesarios
+<br/>
 
 - Geografía
 - Matemática/álgebra
@@ -144,31 +271,229 @@ talleres \| charlas \| mentorías \| espacio seguro
 - Habilidades comunicativas
 - Paciencia
 
-## R en Ciencias del Suelo {.smaller}
+# {.fondocalipso}
 
-::: {layout="[[1,1], [2]]"}
-# ¿Quién soy?
+::: {.mas-grande .codigo}
+\> **R en Lingüística**
 
--   Sara Acevedo
+\> Riva Quiroga 
+
+:::
+
+## ¿Quién soy?
+\> **Riva Quiroga** ({{< fa brands twitter >}} @rivaquiroga)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+Soy lingüista. 
+
+
+
+## ¿Para qué uso R?
+<br/>
+<br/>
+
+::: {.mediano}
+[**\> investigar cómo los seres humanos nos comunicamos**]{.calipso}
+:::
+<br/>
+
+::: {.mediano .fragment}
+Lingüística de corpus, lingüística computacional, minería de textos, procesamiento del lenguaje natural.
+:::
+
+# {}
+
+::: {layout="[1,1]"}
+![](img/diario-sesion.png)
+
+# 
+::: {.micro}
+:::
+
+:::
+
+
+# {}
+
+::: {layout="[1,1]"}
+![](img/diario-sesion.png)
+
+# 
+
+:::{.micro}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Conciudadanos del Senado i de la Cámara de Diputados,
+Merced a los favores que la Divina Providencia ha seguido dispensando a la República, esta ha continuado su marcha de progreso interior, i se ha mantenido en paz con todas las naciones.
+Me congratulo de anunciaros que considero removidos los obstáculos que contrariaban el restablecimiento de una amistosa i cordial intelijencia con España.
+Las dificultades que desgraciadamente habian surjido entre los dos países, perturbando momentáneamente sus buenas relaciones, han arribado a un desenlace no menos honroso que satisfactorio para ambos. Espero que mediante él, esas relaciones ganaran en intimidad, estension i firmeza.
+El primitivo i verdadero oríjen de tales dificultades no os es desconocido. Bien sabéis que la ocupación de las islas de Chincha por las fuerzas navales de Su Majestad Católica, los principios proclamados para ello por sus ajentes, i la manera como se llevó a efecto, despertaron en América una excitación jeneral, e impusieron al Gobierno de Chile la necesidad...
+:::
+
+:::
+
+# {}
+
+::: {layout="[1,1]"}
+![](img/diario-sesion.png)
+
+# 
+
+:::{.micro}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Conciudadanos del Senado i de la Cámara de Diputados,
+Merced a los favores que la Divina Providencia [ha seguido dispensando]{.rosa} a la República, esta [ha continuado]{.rosa} su marcha de progreso interior, i [se ha mantenido]{.rosa} en paz con todas las naciones.
+[Me congratulo]{.rosa} de anunciaros que [considero]{.rosa} removidos los obstáculos que [contrariaban]{.rosa} el restablecimiento de una amistosa i cordial intelijencia con España.
+Las dificultades que desgraciadamente [habian surjido]{.rosa} entre los dos países, [perturbando]{.rosa} momentáneamente sus buenas relaciones, [han arribado]{.rosa} a un desenlace no menos honroso que satisfactorio para ambos. [Espero]{.rosa} que mediante él, esas relaciones [ganaran]{.rosa} en intimidad, estension i firmeza.
+El primitivo i verdadero oríjen de tales dificultades no os [es]{.rosa} desconocido. Bien [sabéis]{.rosa} que la ocupación de las islas de Chincha por las fuerzas navales de Su Majestad Católica, los principios [proclamados]{.rosa} para ello por sus ajentes, i la manera como [se llevó a efecto]{.rosa}, [despertaron]{.rosa} en América una excitación jeneral, e [impusieron]{.rosa} al Gobierno de Chile la necesidad...
+:::
+
+:::
+
+
+
+# {}
+
+```{r}
+# echo: false
+
+matrix(c(rep(0, each = 15), floor(runif(45, min = 0, max = 5)), rep(0, each = 10)),
+  ncol = 5,
+  nrow = 14,
+  dimnames = list(paste("palabra", 1:14), paste("documento", 1:5)),
+  byrow = TRUE
+)
+```
+
+# {}
+
+::: {layout="[1,1]"}
+![](img/diario-sesion.png)
+
+# 
+
+:::{.micro}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Conciudadanos del Senado i de la Cámara de Diputados,
+Merced a los favores que la Divina Providencia ha seguido dispensando a la República, esta ha continuado su marcha de progreso interior, i se ha mantenido en paz con todas las naciones.
+Me congratulo de anunciaros que considero removidos los obstáculos que contrariaban el restablecimiento de una amistosa i cordial intelijencia con España.
+Las dificultades que desgraciadamente habian surjido entre los dos países, perturbando momentáneamente sus buenas relaciones, han arribado a un desenlace no menos honroso que satisfactorio para ambos. Espero que mediante él, esas relaciones ganaran en intimidad, estension i firmeza.
+El primitivo i verdadero oríjen de tales dificultades no os es desconocido. Bien sabéis que la ocupación de las islas de Chincha por las fuerzas navales de Su Majestad Católica, los principios proclamados para ello por sus ajentes, i la manera como se llevó a efecto, despertaron en América una excitación jeneral, e impusieron al Gobierno de Chile la necesidad...
+:::
+
+:::
+
+# {}
+
+::: {layout="[1,1]"}
+![](img/diario-sesion.png)
+
+# 
+
+:::{.micro}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+[Conciudadanos del Senado i de la Cámara de Diputados,
+Merced a los favores que la Divina Providencia ha seguido dispensando a la República, esta ha continuado su marcha de progreso interior,]{.calipso-claro} [i se ha mantenido en paz con todas las naciones.
+Me congratulo de anunciaros que considero removidos los obstáculos que contrariaban el restablecimiento de una amistosa i cordial intelijencia con España.
+Las dificultades que desgraciadamente habian surjido entre los dos países, perturbando momentáneamente sus buenas relaciones, han arribado a un desenlace no menos honroso que satisfactorio para ambos. Espero que mediante él, esas relaciones ganaran en intimidad, estension i firmeza.
+El primitivo i verdadero oríjen de tales dificultades no os es desconocido. Bien sabéis que la ocupación de las islas de Chincha por las fuerzas navales de Su Majestad Católica, los principios proclamados para ello por sus ajentes, i la manera como se llevó a efecto, despertaron en América una excitación jeneral, e impusieron al Gobierno de Chile la necesidad...]{.calipso}
+:::
+
+:::
+
+
+# {background-image="img/interior-exterior.png"}
+
+## ¿Para qué uso R?
+<br/>
+
+::: {.mediano}
+[**\> comunicar con datos**]{.calipso}
+:::
+
+::: {.mediano .fragment}
+Usando R, enseño a otras personas a comunicar sus hallazgos a través de gráficos, reportes y presentaciones, y a crear flujos de trabajo con datos que sean reproducibles.
+:::
+
+::: {.fragment}
+![](https://raw.githubusercontent.com/rstudio/hex-stickers/master/SVG/quarto.svg){width=15%}![](https://raw.githubusercontent.com/rstudio/hex-stickers/master/SVG/ggplot2.svg){width=15%}![](https://raw.githubusercontent.com/rstudio/hex-stickers/master/SVG/gt.svg){width=15%}![](https://raw.githubusercontent.com/rstudio/hex-stickers/master/SVG/usethis.svg){width=15%}![](https://raw.githubusercontent.com/rstudio/hex-stickers/master/SVG/renv.svg){width=15%}
+:::
+
+# {.fondocalipso}
+
+::: {.r-fit-text .codigo}
+\> **R en Ciencias del Suelo**
+
+\> Sara Acevedo
+
+:::
+
+## ¿Quién soy?
+\> **Sara Acevedo** ({{< fa brands twitter >}} @saryace)
+<br/>
+
+::: {layout="[[1], [2]]"}
+# 
+
 -   Químico mención Analítica y Ambiental
 -   Master en Suelos y Biogeoquímica y Dr(c) Ciencias de la Ingeniería
 -   Científica de Suelos
 -   Especialista en física y química de suelos 
 
-# Para qué uso R
 
+![](https://github.com/Saryace/minidiskR/blob/main/figures/plot_bysoilID_plot.png?raw=true){width="15%"} ![](https://raw.githubusercontent.com/Saryace/pario_datamanagement/master/figures/textural_triangle.png){width="19%"} ![](https://github.com/Saryace/pario_datamanagement/blob/master/figures/cute_psd.gif?raw=true){width="15%"}  ![](https://github.com/Saryace/pario_datamanagement/blob/master/figures/psd_plot.png?raw=true){width="20%"} ![](https://github.com/Saryace/mapa_urbano/blob/main/mapas/mapa_urbano.jpeg?raw=true){width="23%"}
+:::
+
+
+
+## ¿Para qué uso R?
+::: {layout="[[1,1], [2]]"}
+# 
 * El suelo es un volumen tridimensional 
     + Análisis complejo (tiempo y espacio)
     + Uso de sensores de alta resolución
 
+#
 * Modelación de propiedades de suelo
-  + Predicción en base propiedades mas simples
-
+  + Predicción en base propiedades más simples
 *   Análisis de datos derivados de instrumentación (como dataloggers)
-
 
 ![](https://github.com/Saryace/minidiskR/blob/main/figures/plot_bysoilID_plot.png?raw=true){width="15%"} ![](https://raw.githubusercontent.com/Saryace/pario_datamanagement/master/figures/textural_triangle.png){width="19%"} ![](https://github.com/Saryace/pario_datamanagement/blob/master/figures/cute_psd.gif?raw=true){width="15%"}  ![](https://github.com/Saryace/pario_datamanagement/blob/master/figures/psd_plot.png?raw=true){width="20%"} ![](https://github.com/Saryace/mapa_urbano/blob/main/mapas/mapa_urbano.jpeg?raw=true){width="23%"}
 :::
+
+
+
 
 ## Paquetes que más utilizo
 
@@ -186,8 +511,33 @@ talleres \| charlas \| mentorías \| espacio seguro
 :::
 
 ## Habilidades/conocimientos necesarios
+<br/>
+<br/>
 
 - Geología/Física/Química
 - Matemática/estadística
 - Tolerancia a la frustración
 - Inglés PERO la comunidad en Español es grande
+
+# {.fondocalipso data-menu-title="Fin"}
+
+::: ultra-grande 
+**¡Muchas gracias!**
+:::
+
+::: grande
+{{< fa link >}} **tinyurl.com/rladies-usach**
+:::
+
+<br/>
+<br/>
+<br/>
+
+::: grande
+{{< fa brands twitter >}} **@RLadiesSantiago**
+:::
+
+::: grande
+{{< fa brands meetup >}} **meetup.com/rladies-scl**
+:::
+
