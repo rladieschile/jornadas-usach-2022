@@ -433,7 +433,9 @@ El primitivo i verdadero oríjen de tales dificultades no os es desconocido. Bie
 :::
 
 
-# {background-image="img/interior-exterior.png"}
+# {}
+
+![](img/interior-exterior.png)
 
 ## ¿Para qué uso R?
 <br/>
@@ -505,7 +507,7 @@ Usando R, enseño a otras personas a comunicar sus hallazgos a través de gráfi
 # Ciencias del Suelo
 ![](https://raw.githubusercontent.com/ncss-tech/aqp/master/misc/hexstickers/aqp_sticker_v2.png){width="32%"}
 ![](https://github.com/kaizadp/soilpalettes/raw/master/images/0-logo.png){width="35%"}
-![](http://www.ggtern.com/wp-content/uploads/2013/12/feldspar.png){width="50%"}
+![](img/feldspar.png){width="50%"}
 ![](https://patchwork.data-imaginist.com/reference/figures/logo.png){width="30%"}
 
 :::
