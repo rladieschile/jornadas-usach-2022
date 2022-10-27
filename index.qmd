@@ -305,7 +305,7 @@ Soy lingüista.
 Lingüística de corpus, lingüística computacional, minería de textos, procesamiento del lenguaje natural.
 :::
 
-# {}
+# {data-menu-title="Explorar textos"}
 
 ::: {layout="[1,1]"}
 ![](img/diario-sesion.png)
@@ -433,7 +433,7 @@ El primitivo i verdadero oríjen de tales dificultades no os es desconocido. Bie
 :::
 
 
-# {}
+# {data-menu-title="Un gráfico de ejemplo"}
 
 ![](img/interior-exterior.png)
 
